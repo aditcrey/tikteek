@@ -4,7 +4,7 @@ import {
     Text,
     TouchableWithoutFeedback,
     Image,
-    TouchableOpacity
+    TouchableOpacity  
 } from 'react-native'
 
 import Video from 'react-native-video'
@@ -60,7 +60,7 @@ return (
             </View>
 
             <TouchableOpacity style={styles.iconContainer} onPress={onLikePress}>
-            <AntDesign name={"like1"} size={30} color={isLiked ? 'red': 'white'}/>
+            <AntDesign name={"like1"} size={30} color={isLiked ? 'blue': 'white'}/>
             <Text style={styles.statsLabel}>{post.likes}</Text>
             </TouchableOpacity>
 
